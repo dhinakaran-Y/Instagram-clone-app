@@ -6,7 +6,7 @@ import { resolve } from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Instagram-clone-app/",
+  base: "/Instagram-Clone-App/",
   build: {
       rollupOptions: {
         input: {
