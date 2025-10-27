@@ -4,7 +4,6 @@ import { useState , useEffect } from "react";
 
 const StoryPage = () => {
     const paramId = Number(useParams().id)
-    // console.log(paramId);
 
      const [previousStory, setPreviousStory] = useState(false);
      const [nextStory, setNextStory] = useState(true);
