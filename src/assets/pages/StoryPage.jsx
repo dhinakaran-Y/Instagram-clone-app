@@ -27,13 +27,13 @@ const StoryPage = () => {
         
         switch(e.key){
             case "Backspace":
-                window.location = "/"
+                window.location = "/Instagram-clone-app/";
                 break;
             case "ArrowRight":
-                window.location = `/story/${paramId+1}`;
+                window.location = `/Instagram-clone-app/story/${paramId + 1}`;
                 break;
             case "ArrowLeft":
-                window.location = `/story/${paramId-1}`;
+                window.location = `/Instagram-clone-app/story/${paramId - 1}`;
                 break;
             default :
                 null

@@ -15,6 +15,6 @@ const TheStoryCard = ({userName = "Dhina" , id = 22}) => {
  );
 }
 
-const storyNavigation = (id) => window.location = "/story/"+id;
+const storyNavigation = (id) =>(window.location = "/Instagram-clone-app/story/" + id);
 
 export default TheStoryCard 
