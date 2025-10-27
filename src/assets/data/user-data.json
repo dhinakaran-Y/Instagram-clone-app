@@ -1,0 +1,18 @@
+{
+    "id": 10,
+    "userid": "Dhinakaran_Hatake",
+    "username": "dhina",
+    "caption": "Running to be a 🧑‍💻 #developer",
+    "profileImage": "https://github.com/dhinakaran-Y.png",
+    "postDesc": "His mother had always taught him not to ever think of himself as better than others. He tried to live by this motto. But the stupidity of the group he was talking to made him reconsider.",
+    "likes": 120,
+    "comments": [
+      { "user": "alice_wonder", "comment": "Wow! Amazing shot! 📸" },
+      { "user": "mark_92", "comment": "Where is this place? 🌄" },
+      { "user": "lily_rose", "comment": "🔥🔥 This view is insane!" },
+      { "user": "tommy_01", "comment": "❤️ Love it!" },
+      { "user": "sara_m", "comment": "So peaceful 😍" },
+      { "user": "raj_rocks", "comment": "Cringe... looks staged 🤢" }
+    ],
+    "timestamp": "2002-02-11,14:30"
+  }

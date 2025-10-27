@@ -1,0 +1,524 @@
+ [
+   {
+     "id": 1,
+     "userid": "john_doe_337",
+     "username": "john_doe",
+     "caption": "Beautiful sunset 🌅 #Nature",
+     "postDesc": "His mother had always taught him not to ever think of himself as better than others. He tried to live by this motto. But the stupidity of the group he was talking to made him reconsider.",
+     "likes": 120,
+     "comments": [
+       { "user": "alice_wonder", "comment": "Wow! Amazing shot! 📸" },
+       { "user": "mark_92", "comment": "Where is this place? 🌄" },
+       { "user": "lily_rose", "comment": "🔥🔥 This view is insane!" },
+       { "user": "tommy_01", "comment": "❤️ Love it!" },
+       { "user": "sara_m", "comment": "So peaceful 😍" },
+       { "user": "raj_rocks", "comment": "Cringe... looks staged 🤢" }
+     ],
+     "timestamp": "2025-02-11,14:30"
+   },
+   {
+     "id": 2,
+     "userid": "emma_smith_101",
+     "username": "emma_smith",
+     "caption": "Late night coding session 💻 #DeveloperLife",
+     "postDesc": "Sometimes working late pays off. Emma debugged for hours but finally solved the problem.",
+     "likes": 95,
+     "comments": [
+       { "user": "dev_guy", "comment": "🔥 Respect the grind!" },
+       { "user": "codequeen", "comment": "😍 Love your dedication!" },
+       { "user": "lazy_cat", "comment": "Cringe, stay healthy 🤢" },
+       { "user": "nightowl", "comment": "❤️ Coding vibes!" },
+       { "user": "alice_wonder", "comment": "😭 I feel you!" },
+       { "user": "mark_92", "comment": "🔥 Keep it up!" }
+     ],
+     "timestamp": "2025-03-05,22:15"
+   },
+   {
+     "id": 3,
+     "userid": "travel_bug_88",
+     "username": "travel_bug",
+     "caption": "Exploring hidden waterfalls 🌊 #Adventure",
+     "postDesc": "Nothing beats the thrill of discovering a hidden waterfall. Nature’s beauty never ceases to amaze.",
+     "likes": 230,
+     "comments": [
+       { "user": "lily_rose", "comment": "😍 This is magical!" },
+       {
+         "user": "emma_smith_101",
+         "comment": "❤️ Add this to my bucket list!"
+       },
+       { "user": "raj_rocks", "comment": "🔥 Pure vibes!" },
+       { "user": "mark_92", "comment": "Cringe... looks dangerous 🤢" },
+       { "user": "alice_wonder", "comment": "😭 Wish I was there!" },
+       { "user": "tommy_01", "comment": "Absolutely stunning 😍" }
+     ],
+     "timestamp": "2025-04-12,10:00"
+   },
+   {
+     "id": 4,
+     "userid": "fitness_freak_7",
+     "username": "fitness_freak",
+     "caption": "Morning workout done ✅ #GymLife",
+     "postDesc": "Consistency beats intensity. A daily routine keeps you strong, physically and mentally.",
+     "likes": 180,
+     "comments": [
+       { "user": "emma_smith_101", "comment": "🔥 Crushing it!" },
+       { "user": "alice_wonder", "comment": "❤️ Motivation level 100!" },
+       { "user": "mark_92", "comment": "Cringe… too early 😭" },
+       { "user": "lily_rose", "comment": "😍 Goals!" },
+       { "user": "raj_rocks", "comment": "🔥 Inspiring!" },
+       { "user": "tommy_01", "comment": "❤️ Keep going!" }
+     ],
+     "timestamp": "2025-05-01,06:30"
+   },
+   {
+     "id": 5,
+     "userid": "foodie_king",
+     "username": "foodie_king",
+     "caption": "Homemade pasta 🍝 #Foodie",
+     "postDesc": "Experimenting in the kitchen is the key to delicious discoveries.",
+     "likes": 250,
+     "comments": [
+       { "user": "lily_rose", "comment": "😍 Looks so tasty!" },
+       { "user": "alice_wonder", "comment": "❤️ I want some!" },
+       { "user": "raj_rocks", "comment": "🔥 Chef vibes!" },
+       { "user": "mark_92", "comment": "Cringe… I’d ruin it 🤢" },
+       { "user": "tommy_01", "comment": "😍 Yummy!" },
+       { "user": "emma_smith_101", "comment": "❤️ Recipe please!" }
+     ],
+     "timestamp": "2025-06-10,18:45"
+   },
+   {
+     "id": 6,
+     "userid": "sunset_chaser",
+     "username": "sunset_chaser",
+     "caption": "Golden hour magic 🌇 #Photography",
+     "postDesc": "Chasing sunsets every evening is my therapy. Nature has its own canvas.",
+     "likes": 310,
+     "comments": [
+       { "user": "alice_wonder", "comment": "😍 Stunning colors!" },
+       { "user": "raj_rocks", "comment": "🔥 Breathtaking!" },
+       { "user": "mark_92", "comment": "❤️ Love this vibe!" },
+       { "user": "lily_rose", "comment": "Cringe… too perfect 🤢" },
+       { "user": "tommy_01", "comment": "😭 Wish I was there!" },
+       { "user": "emma_smith_101", "comment": "😍 Goals!" }
+     ],
+     "timestamp": "2025-07-15,19:00"
+   },
+   {
+     "id": 7,
+     "userid": "bookworm_lily",
+     "username": "bookworm_lily",
+     "caption": "Lost in a world of words 📖 #Reading",
+     "postDesc": "Books are my escape. Every story teaches me something new.",
+     "likes": 140,
+     "comments": [
+       { "user": "alice_wonder", "comment": "😍 Love reading too!" },
+       { "user": "mark_92", "comment": "❤️ So inspiring!" },
+       { "user": "raj_rocks", "comment": "🔥 Must-read vibes!" },
+       { "user": "lily_rose", "comment": "😭 Cringe… too nerdy 🤢" },
+       { "user": "tommy_01", "comment": "😍 Definitely adding to my list!" },
+       {
+         "user": "emma_smith_101",
+         "comment": "❤️ Beautiful capture of reading!"
+       }
+     ],
+     "timestamp": "2025-08-02,14:20"
+   },
+   {
+     "id": 8,
+     "userid": "adventure_time",
+     "username": "adventure_time",
+     "caption": "Mountain trekking 🏔️ #AdventureLife",
+     "postDesc": "The higher you climb, the closer you get to yourself.",
+     "likes": 290,
+     "comments": [
+       { "user": "lily_rose", "comment": "🔥 Insane views!" },
+       { "user": "alice_wonder", "comment": "❤️ Epic adventure!" },
+       { "user": "mark_92", "comment": "😭 Too tiring for me 😢" },
+       { "user": "raj_rocks", "comment": "😍 Love the courage!" },
+       { "user": "tommy_01", "comment": "Cringe… looks risky 🤢" },
+       { "user": "emma_smith_101", "comment": "🔥 Incredible journey!" }
+     ],
+     "timestamp": "2025-08-20,08:00"
+   },
+   {
+     "id": 9,
+     "userid": "coffee_addict",
+     "username": "coffee_addict",
+     "caption": "Morning brew ☕ #CoffeeLover",
+     "postDesc": "Nothing beats the aroma of freshly brewed coffee to start the day.",
+     "likes": 175,
+     "comments": [
+       { "user": "alice_wonder", "comment": "❤️ Need this now!" },
+       { "user": "lily_rose", "comment": "😍 Coffee goals!" },
+       { "user": "mark_92", "comment": "🔥 Perfect start!" },
+       { "user": "raj_rocks", "comment": "😭 I need caffeine!" },
+       { "user": "tommy_01", "comment": "Cringe… too early 😢" },
+       { "user": "emma_smith_101", "comment": "😍 Looks divine!" }
+     ],
+     "timestamp": "2025-09-05,07:30"
+   },
+   {
+     "id": 10,
+     "userid": "night_sky",
+     "username": "night_sky",
+     "caption": "Starry nights ✨ #AstroPhotography",
+     "postDesc": "The universe reminds us how small we are, yet infinite at the same time.",
+     "likes": 260,
+     "comments": [
+       { "user": "alice_wonder", "comment": "😍 Beautiful capture!" },
+       { "user": "raj_rocks", "comment": "🔥 Mind-blowing!" },
+       { "user": "lily_rose", "comment": "❤️ Absolutely mesmerizing!" },
+       { "user": "mark_92", "comment": "😭 Cringe… too dark 🤢" },
+       { "user": "tommy_01", "comment": "😍 Incredible!" },
+       { "user": "emma_smith_101", "comment": "🔥 Universe vibes!" }
+     ],
+     "timestamp": "2025-09-20,23:15"
+   },
+   {
+     "id": 11,
+     "userid": "ocean_dreamer",
+     "username": "ocean_dreamer",
+     "caption": "Seaside serenity 🌊 #OceanVibes",
+     "postDesc": "The waves whisper secrets only those who listen can hear.",
+     "likes": 210,
+     "comments": [
+       { "user": "lily_rose", "comment": "😍 So calming!" },
+       { "user": "alice_wonder", "comment": "❤️ Love this!" },
+       { "user": "raj_rocks", "comment": "🔥 Perfect shot!" },
+       { "user": "mark_92", "comment": "😭 Wish I was there!" },
+       { "user": "tommy_01", "comment": "Cringe… too empty 🤢" },
+       { "user": "emma_smith_101", "comment": "😍 Gorgeous!" }
+     ],
+     "timestamp": "2025-10-01,16:00"
+   },
+   {
+     "id": 12,
+     "userid": "street_photog",
+     "username": "street_photog",
+     "caption": "City lights at night 🌃 #UrbanPhotography",
+     "postDesc": "The city has a heartbeat all its own. Every corner tells a story.",
+     "likes": 280,
+     "comments": [
+       { "user": "alice_wonder", "comment": "🔥 Incredible vibes!" },
+       { "user": "lily_rose", "comment": "😍 Love the colors!" },
+       { "user": "mark_92", "comment": "❤️ So urban chic!" },
+       { "user": "raj_rocks", "comment": "😭 Too bright for my eyes 😢" },
+       { "user": "tommy_01", "comment": "Cringe… looks fake 🤢" },
+       { "user": "emma_smith_101", "comment": "🔥 Amazing capture!" }
+     ],
+     "timestamp": "2025-10-05,21:00"
+   },
+   {
+     "id": 13,
+     "userid": "movie_buff_22",
+     "username": "cinema_lover",
+     "caption": "Movie night 🎬 #Film",
+     "postDesc": "Escaping into different worlds, one frame at a time.",
+     "likes": 134,
+     "comments": [
+       { "user": "film_nerd", "comment": "Classic choice! 🍿" },
+       { "user": "movie_goer", "comment": "How was it?" },
+       { "user": "cinema_fan", "comment": "Great film selection!" }
+     ],
+     "timestamp": "2025-02-08,21:45"
+   },
+   {
+     "id": 14,
+     "userid": "bike_rider_77",
+     "username": "cycling_pro",
+     "caption": "Early morning ride 🚴 #Cycling",
+     "postDesc": "The road ahead is the best therapist money can't buy.",
+     "likes": 223,
+     "comments": [
+       { "user": "bike_life", "comment": "Nice bike! 🚲" },
+       { "user": "cycling_team", "comment": "How many miles?" },
+       { "user": "road_warrior", "comment": "Beautiful route! 🌅" }
+     ],
+     "timestamp": "2025-02-08,06:15"
+   },
+   {
+     "id": 15,
+     "userid": "baker_extra_91",
+     "username": "sweet_treats",
+     "caption": "Fresh from the oven 🍪 #Baking",
+     "postDesc": "The secret ingredient is always love, and maybe a little bit of butter.",
+     "likes": 345,
+     "comments": [
+       { "user": "dessert_lover", "comment": "Looks delicious! 😋" },
+       { "user": "home_baker", "comment": "Recipe please! 📝" },
+       { "user": "sweet_tooth", "comment": "I can smell this picture! 🍰" }
+     ],
+     "timestamp": "2025-02-07,19:30"
+   },
+   {
+     "id": 16,
+     "userid": "yoga_master_34",
+     "username": "yoga_life",
+     "caption": "Sunrise practice 🌞 #Yoga",
+     "postDesc": "Finding balance, one breath at a time, as the sun greets the new day.",
+     "likes": 189,
+     "comments": [
+       { "user": "yogi_friend", "comment": "Beautiful pose! 🧘" },
+       { "user": "mindfulness", "comment": "So peaceful! ✨" },
+       { "user": "wellness_seeker", "comment": "Inspirational! 💫" }
+     ],
+     "timestamp": "2025-02-07,07:00"
+   },
+   {
+     "id": 17,
+     "userid": "gamer_elite_66",
+     "username": "pro_gamer",
+     "caption": "New high score! 🎮 #Gaming",
+     "postDesc": "Hours of practice finally paying off with that sweet, sweet victory screen.",
+     "likes": 278,
+     "comments": [
+       { "user": "gaming_buddy", "comment": "No way! That's insane! 🤯" },
+       { "user": "esports_fan", "comment": "What's your setup?" },
+       { "user": "game_nerd", "comment": "Legend! 🏆" }
+     ],
+     "timestamp": "2025-02-06,23:30"
+   },
+   {
+     "id": 18,
+     "userid": "beach_bum_25",
+     "username": "ocean_lover",
+     "caption": "Beach day 🏖️ #Ocean",
+     "postDesc": "The ocean's rhythm has a way of washing away all the noise and leaving only peace.",
+     "likes": 412,
+     "comments": [
+       { "user": "beach_life", "comment": "Paradise! 🌴" },
+       { "user": "surfer_dude", "comment": "How's the surf?" },
+       { "user": "coastal_living", "comment": "Wish I was there! 🌊" }
+     ],
+     "timestamp": "2025-02-06,15:45"
+   },
+   {
+     "id": 19,
+     "userid": "book_club_88",
+     "username": "reading_nook",
+     "caption": "Cozy reading spot 📖 #Books",
+     "postDesc": "The perfect corner where stories come alive and time stands still.",
+     "likes": 267,
+     "comments": [
+       { "user": "book_club", "comment": "Perfect setup! 🛋️" },
+       { "user": "reader_life", "comment": "What are you reading?" },
+       { "user": "library_love", "comment": "Dream reading spot! 💭" }
+     ],
+     "timestamp": "2025-02-05,20:15"
+   },
+   {
+     "id": 20,
+     "userid": "city_lights_59",
+     "username": "urban_explorer",
+     "caption": "City skyline 🌃 #Urban",
+     "postDesc": "There's a certain magic in the hum of a city that never sleeps.",
+     "likes": 325,
+     "comments": [
+       { "user": "city_life", "comment": "Amazing shot! 📸" },
+       { "user": "urban_photo", "comment": "What camera settings?" },
+       { "user": "skyline_fan", "comment": "Beautiful lights! ✨" }
+     ],
+     "timestamp": "2025-02-05,21:30"
+   },
+   {
+     "id": 21,
+     "userid": "hiker_trail_42",
+     "username": "mountain_hiker",
+     "caption": "Summit achieved! ⛰️ #Hiking",
+     "postDesc": "The best views come after the hardest climbs. Every step was worth it.",
+     "likes": 298,
+     "comments": [
+       { "user": "hiking_buddy", "comment": "Congratulations! 🎉" },
+       { "user": "trail_master", "comment": "Which trail is this?" },
+       { "user": "adventure_time", "comment": "Incredible view! 🌄" }
+     ],
+     "timestamp": "2025-02-04,16:20"
+   },
+   {
+     "id": 22,
+     "userid": "coffee_artist_73",
+     "username": "latte_artist",
+     "caption": "Today's creation ☕ #LatteArt",
+     "postDesc": "Turning morning coffee into miniature masterworks, one pour at a time.",
+     "likes": 445,
+     "comments": [
+       { "user": "coffee_lover", "comment": "Perfect heart! ❤️" },
+       { "user": "barista_life", "comment": "Clean pour! 👏" },
+       { "user": "cafe_regular", "comment": "Art in a cup! 🎨" }
+     ],
+     "timestamp": "2025-02-04,08:45"
+   },
+   {
+     "id": 23,
+     "userid": "snow_boarder_61",
+     "username": "snow_adventurer",
+     "caption": "Powder day! 🏂 #Snowboarding",
+     "postDesc": "Floating through fresh powder feels like flying without ever leaving the ground.",
+     "likes": 387,
+     "comments": [
+       { "user": "snow_lover", "comment": "Fresh tracks! ❄️" },
+       { "user": "winter_sports", "comment": "Which resort?" },
+       { "user": "board_life", "comment": "Perfect conditions! 🤙" }
+     ],
+     "timestamp": "2025-02-03,12:30"
+   },
+   {
+     "id": 24,
+     "userid": "star_gazer_28",
+     "username": "cosmic_observer",
+     "caption": "Night sky wonders ✨ #Astronomy",
+     "postDesc": "Looking up at the stars reminds me how small we are, yet how connected to the universe.",
+     "likes": 234,
+     "comments": [
+       { "user": "space_nerd", "comment": "Amazing shot! 🌠" },
+       { "user": "telescope_user", "comment": "What equipment?" },
+       { "user": "universe_love", "comment": "So magical! 🌌" }
+     ],
+     "timestamp": "2025-02-02,23:15"
+   },
+   {
+     "id": 25,
+     "userid": "fitness_queen_55",
+     "username": "fit_queen",
+     "caption": "Morning workout complete 💃 #Fitness",
+     "postDesc": "Sweat today for a better tomorrow. The burn means it's working!",
+     "likes": 276,
+     "comments": [
+       { "user": "workout_buddy", "comment": "Killing it! 🔥" },
+       { "user": "fitness_fam", "comment": "What's your routine?" },
+       { "user": "health_goals", "comment": "Motivational! 💪" }
+     ],
+     "timestamp": "2025-02-02,07:30"
+   },
+   {
+     "id": 26,
+     "userid": "vintage_collector_39",
+     "username": "retro_lover",
+     "caption": "New vintage find 📻 #Retro",
+     "postDesc": "Every vintage piece has a story to tell, if only we take the time to listen.",
+     "likes": 198,
+     "comments": [
+       { "user": "vintage_hunter", "comment": "Great find! 🕰️" },
+       { "user": "retro_collector", "comment": "What year is it from?" },
+       {
+         "user": "old_school",
+         "comment": "They don't make them like this anymore!"
+       }
+     ],
+     "timestamp": "2025-02-01,14:45"
+   },
+   {
+     "id": 27,
+     "userid": "rainy_days_47",
+     "username": "pluviophile",
+     "caption": "Rainy day comfort 🌧️ #Cozy",
+     "postDesc": "There's something magical about the sound of rain and the comfort of being warm inside.",
+     "likes": 312,
+     "comments": [
+       { "user": "rain_lover", "comment": "Perfect cozy day! ☔" },
+       { "user": "home_comfort", "comment": "This looks so peaceful" },
+       { "user": "weather_enthusiast", "comment": "Love rainy days! 🌧️" }
+     ],
+     "timestamp": "2025-01-31,16:20"
+   },
+   {
+     "id": 28,
+     "userid": "diary_writer_64",
+     "username": "journal_keeper",
+     "caption": "Morning pages 📝 #Journaling",
+     "postDesc": "Clearing the mind one page at a time, making space for new thoughts and dreams.",
+     "likes": 167,
+     "comments": [
+       { "user": "journal_buddy", "comment": "Love your setup! ✨" },
+       { "user": "writing_life", "comment": "What journal is that?" },
+       { "user": "mindful_writer", "comment": "Journaling is therapy! 📓" }
+     ],
+     "timestamp": "2025-01-31,08:15"
+   },
+   {
+     "id": 29,
+     "userid": "sunflower_girl_71",
+     "username": "sunny_disposition",
+     "caption": "Field of sunshine 🌻 #Flowers",
+     "postDesc": "Sunflowers always face the light, a good reminder for us all to follow.",
+     "likes": 423,
+     "comments": [
+       { "user": "flower_power", "comment": "So beautiful! 🌻" },
+       { "user": "nature_shot", "comment": "Amazing photo! 📷" },
+       { "user": "garden_love", "comment": "My favorite flowers! 💛" }
+     ],
+     "timestamp": "2025-01-30,17:40"
+   },
+   {
+     "id": 30,
+     "userid": "minimalist_life_53",
+     "username": "simple_living",
+     "caption": "Clean space, clear mind 🏡 #Minimalism",
+     "postDesc": "Living with less to make room for what truly matters - peace, purpose, and presence.",
+     "likes": 289,
+     "comments": [
+       { "user": "minimalist_buddy", "comment": "So clean and peaceful! 🪴" },
+       { "user": "simple_life", "comment": "Goals! 💫" },
+       { "user": "declutter_expert", "comment": "Love the aesthetic! ✨" }
+     ],
+     "timestamp": "2025-01-30,10:30"
+   },
+
+   {
+     "id": 31,
+     "userid": "music_maestro_33",
+     "username": "music_maestro",
+     "caption": "Studio session 🎵 #Music",
+     "postDesc": "Lost in the flow, creating melodies that speak when words fail.",
+     "likes": 167,
+     "comments": [
+       { "user": "music_lover", "comment": "Can't wait to hear it! 🎶" },
+       { "user": "producer_life", "comment": "What DAW are you using?" },
+       { "user": "sound_engineer", "comment": "Clean setup! 🎧" }
+     ],
+     "timestamp": "2025-02-09,23:45"
+   },
+   {
+     "id": 32,
+     "userid": "pet_lover_89",
+     "username": "pet_parent",
+     "caption": "Nap time with my buddy 🐶 #Pets",
+     "postDesc": "The purest form of love comes with four legs and a wagging tail.",
+     "likes": 534,
+     "comments": [
+       { "user": "dog_lover", "comment": "So adorable! 🥰" },
+       { "user": "pet_owner", "comment": "What breed is he?" },
+       { "user": "animal_rescue", "comment": "Precious baby! 💕" }
+     ],
+     "timestamp": "2025-02-09,18:15"
+   },
+   {
+     "id": 33,
+     "userid": "fashion_ista_44",
+     "username": "style_queen",
+     "caption": "New outfit day 👗 #Fashion",
+     "postDesc": "Fashion is the armor to survive the reality of everyday life.",
+     "likes": 289,
+     "comments": [
+       { "user": "fashion_lover", "comment": "Love this outfit! 👌" },
+       { "user": "style_blogger", "comment": "Where's the dress from?" },
+       { "user": "trend_setter", "comment": "Slaying! 💅" }
+     ],
+     "timestamp": "2025-02-09,14:20"
+   },
+   {
+     "id": 34,
+     "userid": "garden_guru_67",
+     "username": "green_thumb",
+     "caption": "Spring blooms 🌸 #Gardening",
+     "postDesc": "Watching things grow is a special kind of magic that never gets old.",
+     "likes": 156,
+     "comments": [
+       { "user": "plant_parent", "comment": "Beautiful flowers! 🌺" },
+       { "user": "garden_life", "comment": "What type of flowers are these?" },
+       { "user": "nature_grow", "comment": "So vibrant! 🌷" }
+     ],
+     "timestamp": "2025-02-09,11:30"
+   }
+ ]

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Roboto: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./public/Roboto/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and old Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Edge */
+}
+
+.slide-left-btn {
+  @apply absolute border top-2/5 -translate-y-1/2 z-10 ml-1 left-0 bg-white/80 text-black/40 px-1 py-2 rounded-t-full rounded-b-full hover:cursor-pointer hover:bg-white active:-translate-x-1 select-none shadow;
+}
+
+.slide-right-btn {
+  @apply absolute border top-2/5 -translate-y-1/2 z-10  mr-1 right-0 bg-white/90 text-black/40 px-1 py-2 rounded-t-full rounded-b-full hover:cursor-pointer hover:bg-white active:translate-x-1 select-none shadow;
+}

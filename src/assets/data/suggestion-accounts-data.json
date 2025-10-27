@@ -1,0 +1,100 @@
+[
+  {
+    "id": 62,
+    "userid": "emma_watson_88",
+    "username": "emma_watson",
+    "caption": "Morning coffee vibes ☕ #CoffeeLover",
+    "postDesc": "The coffee machine gurgled happily, providing the morning fuel needed to face another day of challenges and opportunities.",
+    "likes": 245,
+    "comments": [
+      { "user": "coffee_addict", "comment": "That latte art! 🤩" },
+      { "user": "morning_person", "comment": "Perfect start to the day!" },
+      { "user": "java_joe", "comment": "What blend is that? 👀" }
+    ],
+    "timestamp": "2025-02-11,09:15"
+  },
+  {
+    "id": 63,
+    "userid": "mike_tyson_99",
+    "username": "mike_tyson",
+    "caption": "Gym session complete 💪 #Fitness",
+    "postDesc": "Another day, another opportunity to push beyond limits and become stronger than yesterday.",
+    "likes": 189,
+    "comments": [
+      { "user": "fit_fam", "comment": "Beast mode! 🦍" },
+      { "user": "gym_rat", "comment": "What's your routine?" },
+      { "user": "health_first", "comment": "Inspirational! 💯" }
+    ],
+    "timestamp": "2025-02-11,07:45"
+  },
+  {
+    "id": 64,
+    "userid": "sarah_j_23",
+    "username": "sarah_j",
+    "caption": "New book alert! 📚 #Reading",
+    "postDesc": "There's something magical about the smell of a new book and the promise of adventures within its pages.",
+    "likes": 156,
+    "comments": [
+      { "user": "bookworm", "comment": "Great choice! Loved this one 📖" },
+      { "user": "reader_life", "comment": "Adding to my TBR list!" },
+      { "user": "literary_nerd", "comment": "One of my favorites! 🤓" }
+    ],
+    "timestamp": "2025-02-10,20:22"
+  },
+  {
+    "id": 65,
+    "userid": "travel_bug_45",
+    "username": "wanderlust_tom",
+    "caption": "Mountain views 🏔️ #Travel",
+    "postDesc": "Standing at the edge of the world, feeling small yet connected to everything around me.",
+    "likes": 312,
+    "comments": [
+      { "user": "adventure_seeker", "comment": "Breathtaking! 🌄" },
+      { "user": "globetrotter", "comment": "Which mountain is this?" },
+      { "user": "nature_lover", "comment": "Wish I was there! 🥺" }
+    ],
+    "timestamp": "2025-02-10,16:50"
+  },
+  {
+    "id": 66,
+    "userid": "foodie_queen_12",
+    "username": "foodie_queen",
+    "caption": "Homemade pasta night 🍝 #Food",
+    "postDesc": "There's nothing more satisfying than creating a delicious meal from scratch with love and fresh ingredients.",
+    "likes": 278,
+    "comments": [
+      { "user": "chef_life", "comment": "Recipe please! 👨‍🍳" },
+      { "user": "pasta_lover", "comment": "Looks incredible! 🤤" },
+      { "user": "cooking_pro", "comment": "Fresh pasta is the best!" }
+    ],
+    "timestamp": "2025-02-10,19:30"
+  },
+  {
+    "id": 67,
+    "userid": "tech_guru_78",
+    "username": "tech_guru",
+    "caption": "New setup 🔥 #Tech",
+    "postDesc": "Upgraded the battle station with some new gear. Productivity about to go through the roof!",
+    "likes": 421,
+    "comments": [
+      { "user": "pc_master", "comment": "Specs? 👀" },
+      { "user": "gamer_4_life", "comment": "Clean setup! 🎮" },
+      { "user": "tech_nerd", "comment": "That monitor though! 🖥️" }
+    ],
+    "timestamp": "2025-02-10,15:20"
+  },
+  {
+    "id": 68,
+    "userid": "art_soul_56",
+    "username": "creative_mind",
+    "caption": "Latest painting 🎨 #Art",
+    "postDesc": "Pouring emotions onto canvas, creating something beautiful from the chaos within.",
+    "likes": 198,
+    "comments": [
+      { "user": "art_lover", "comment": "Stunning work! ✨" },
+      { "user": "painter_pro", "comment": "Love the color palette!" },
+      { "user": "creative_soul", "comment": "So much emotion! 🎭" }
+    ],
+    "timestamp": "2025-02-10,22:10"
+  }
+]
