@@ -1,9 +1,13 @@
 import { useParams, Link } from "react-router-dom";
 import postsData from "../data/posts-data.json";
 import { useState , useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const StoryPage = () => {
     const paramId = Number(useParams().id)
+    const navigate = useNavigate();
+
+    const navigateStory = (id) => id > 0 && id <= postsData.length ? navigate(`/story/${id}`) : null; 
 
      const [previousStory, setPreviousStory] = useState(false);
      const [nextStory, setNextStory] = useState(true);
@@ -23,17 +27,15 @@ const StoryPage = () => {
      
     // key functions 
     document.addEventListener('keyup', (e) => { 
-        console.log(e.key);
-        
         switch(e.key){
             case "Backspace":
-                window.location = "/Instagram-clone-app/";
+                navigate("/");
                 break;
             case "ArrowRight":
-                window.location = `/Instagram-clone-app/story/${paramId + 1}`;
+                navigateStory(paramId+1)
                 break;
             case "ArrowLeft":
-                window.location = `/Instagram-clone-app/story/${paramId - 1}`;
+                navigateStory(paramId-1)
                 break;
             default :
                 null
@@ -94,6 +96,6 @@ const StoryPage = () => {
   );
 };
 
-const navigateStory = (id) => id > 0 ? window.location = `/story/${id}`: null
+// const navigateStory = (id) => id > 0 ? window.location = `/story/${id}`: null
 
 export default StoryPage;

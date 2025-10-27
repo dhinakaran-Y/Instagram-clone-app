@@ -1,10 +1,11 @@
+import inst_text_img from "../../../public/Instagram_text_logo.svg.png"
 
 const TheNavbar = ()=> {
     return (
       <>
         <nav className="flex w-3/20 h-full flex-col border-r border-gray-100 bg-white fixed">
           <img
-            src="./public/Instagram_text_logo.svg.png"
+            src={inst_text_img}
             alt="Instagram_text_logo"
             className="w-32 my-5 pl-3 hover:cursor-pointer"
           />
