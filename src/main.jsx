@@ -7,21 +7,21 @@ import StoryPage from './assets/pages/StoryPage';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Instagram-clone-app/",
     element: <MainLayout />,
     errorElement: <ErrorPage />,
 
     children: [
       {
-        path: "/",
+        path: "/Instagram-clone-app/",
         element: <HomePage />,
       },
     ],
   },
   {
-    path: "/story/:id",
-    element:<StoryPage/>
-  }
+    path: "/Instagram-clone-app/story/:id",
+    element: <StoryPage />,
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(<RouterProvider router={router} />);
