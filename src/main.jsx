@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "Instagram-clone-app/story/:id",
+    path: "/Instagram-clone-app/story/:id",
     element: <StoryPage />,
   },
 ]);
