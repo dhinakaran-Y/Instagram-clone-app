@@ -6,7 +6,8 @@
     "profileImage": "https://github.com/dhinakaran-Y.png",
     "postDesc": "His mother had always taught him not to ever think of himself as better than others. He tried to live by this motto. But the stupidity of the group he was talking to made him reconsider.",
     "likes": 120,
-    "comments": [
+    "about":["birth-road : 01.01.02" , "left-viewer" , "perambalur"],
+    "comments":[
       { "user": "alice_wonder", "comment": "Wow! Amazing shot! 📸" },
       { "user": "mark_92", "comment": "Where is this place? 🌄" },
       { "user": "lily_rose", "comment": "🔥🔥 This view is insane!" },

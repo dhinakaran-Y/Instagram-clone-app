@@ -1,16 +1,17 @@
 import inst_text_img from "../../../public/Instagram_text_logo.svg.png"
+import { Link } from "react-router-dom";
 
 const TheNavbar = ()=> {
     return (
       <>
-        <nav className="flex w-3/20 h-full flex-col border-r border-gray-100 bg-white fixed">
+        <nav className="flex w-3/20 h-full flex-col border-r border-gray-100 bg-white fixed select-none">
           <img
             src={inst_text_img}
             alt="Instagram_text_logo"
             className="w-32 my-5 pl-3 hover:cursor-pointer"
           />
           <div className="flex flex-col my-3 *:flex *:items-center *:py-3 *:pl-7 **:only:first:mr-3 font-semibold font-sans *:hover:bg-gray-200 *:active:-translate-x-4 *:hover:cursor-pointer">
-            <a>
+            <Link to={"/"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.5rem"
@@ -23,7 +24,7 @@ const TheNavbar = ()=> {
                 />
               </svg>
               Home
-            </a>
+            </Link>
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +124,7 @@ const TheNavbar = ()=> {
               </svg>
               Create
             </a>
-            <a>
+            <Link to={"/profile"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.5rem"
@@ -136,7 +137,7 @@ const TheNavbar = ()=> {
                 />
               </svg>
               Profile
-            </a>
+            </Link>
           </div>
 
           <div className="flex flex-col mt-20 *:flex *:items-center *:py-3 *:pl-7 **:only:first:mr-3 font-semibold font-sans *:hover:bg-gray-200 *:active:-translate-x-4 *:hover:cursor-pointer">

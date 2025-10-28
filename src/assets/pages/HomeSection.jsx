@@ -59,7 +59,7 @@ const HomeSection = () => {
 
   return (
     <section className="col-span-11 border-r border-gray-100" id="111">
-      <div className="relative w-8/12 mx-auto my-4">
+      <div className="relative w-8/12 mx-auto my-4 select-none">
         {/* Scroll btns */}
         {/* left */}
         {canScrollLeft && (

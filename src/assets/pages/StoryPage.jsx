@@ -41,7 +41,7 @@ const StoryPage = () => {
   }, [paramId]);
 
   return (
-    <section className="grid justify-items-center items-center mt-2">
+    <section className="grid justify-items-center items-center mt-2 select-none">
       <Link
         to="/"
         className="fixed top-2 left-3 px-3 py-2 text-blue-500 rounded hover:bg-gray-200 active:bg-gray-300"
