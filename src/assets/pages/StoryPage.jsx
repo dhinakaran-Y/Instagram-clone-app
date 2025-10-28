@@ -1,85 +1,84 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 import postsData from "../data/posts-data.json";
-import { useState , useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 const StoryPage = () => {
-    const paramId = Number(useParams().id)
-    const navigate = useNavigate();
+  const { id } = useParams();
+  const paramId = Number(id);
+  const navigate = useNavigate();
 
-    const navigateStory = (id) => id > 0 && id <= postsData.length ? navigate(`/story/${id}`) : null; 
+  const navigateStory = (id) =>id > 0 && id <= postsData.length ? navigate(`/story/${id}`) : null;
 
-     const [previousStory, setPreviousStory] = useState(false);
-     const [nextStory, setNextStory] = useState(true);
+  const [previousStory, setPreviousStory] = useState(false);
+  const [nextStory, setNextStory] = useState(true);
 
-     useEffect(() => {
-        const checkStoryNavigation = () => {
-       
-        const min = paramId <= 1 ;
-        const max = paramId >= postsData.length;
+  useEffect(() => {
 
-        setPreviousStory(!min)
-        setNextStory(!max)
-        };
+    setPreviousStory(paramId > 1);
+    setNextStory(paramId < postsData.length);
+    
+  }, [paramId]);
 
-        checkStoryNavigation()
-     },[paramId])
-     
-    // key functions 
-    document.addEventListener('keyup', (e) => { 
-        switch(e.key){
-            case "Backspace":
-                navigate("/");
-                break;
-            case "ArrowRight":
-                navigateStory(paramId+1)
-                break;
-            case "ArrowLeft":
-                navigateStory(paramId-1)
-                break;
-            default :
-                null
-         }
-        });
+  useEffect(() => {
+    const handleKey = (e) => {
+      switch (e.key) {
+        case "Backspace":
+          navigate("/");
+          break;
+        case "ArrowRight":
+          navigateStory(paramId + 1);
+          break;
+        case "ArrowLeft":
+          navigateStory(paramId - 1);
+          break;
+        default:
+          break;
+      }
+    };
+
+    document.addEventListener("keyup", handleKey);
+    return () => document.removeEventListener("keyup", handleKey);
+  }, [paramId]);
 
   return (
-    <section className="flex-col justify-items-center items-center">
+    <section className="grid justify-items-center items-center mt-2">
       <Link
         to="/"
         className="fixed top-2 left-3 px-3 py-2 text-blue-500 rounded hover:bg-gray-200 active:bg-gray-300"
       >
         &#10094;&#10094;&#10094; back
       </Link>
-      {/* left */}
+
       {previousStory && (
         <button
           type="button"
-          className="slide-left-btn px-2! py-5! left-50! top-53/100!"
+          className="slide-left-btn px-2! py-5! left-50! top-[53%]!"
           onClick={() => navigateStory(paramId - 1)}
         >
           &#10094;
         </button>
       )}
-      {/* right */}
+
       {nextStory && (
         <button
           type="button"
-          className="slide-right-btn px-2! py-5! right-50! top-53/100!"
+          className="slide-right-btn px-2! py-5! right-50! top-[53%]!"
           onClick={() => navigateStory(paramId + 1)}
         >
           &#10095;
         </button>
       )}
+
       <div className="flex items-center mb-1">
-        <div className="relative w-12 h-12 rounded-full bg-conic/decreasing from-fuchsia-800 to-violet-600 via-yellow-200 0 m-1 p-[3px]">
+        <div className="relative w-12 h-12 rounded-full bg-conic/decreasing from-fuchsia-800 to-violet-600 via-yellow-200 m-1 p-[3px]">
           <img
-            src={"https://static.photos/people/200x200/" + (paramId + 200)}
-            alt={(postsData[paramId - 1].username, "-profile-img")}
+            src={`https://static.photos/people/200x200/${paramId + 200}`}
+            alt={`${postsData[paramId - 1].username}-profile-img`}
             className="rounded-full w-full h-full border-[3px] border-white object-cover hover:cursor-pointer"
           />
         </div>
 
-        <div className="*:leading-4">
+        <div className="leading-4">
           <h3 className="font-semibold hover:cursor-pointer">
             {postsData[paramId - 1].userid}
           </h3>
@@ -95,7 +94,5 @@ const StoryPage = () => {
     </section>
   );
 };
-
-// const navigateStory = (id) => id > 0 ? window.location = `/story/${id}`: null
 
 export default StoryPage;
