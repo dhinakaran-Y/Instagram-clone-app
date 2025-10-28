@@ -58,7 +58,7 @@ const HomeSection = () => {
   }, []);
 
   return (
-    <section className="col-span-11 border-r border-gray-100">
+    <section className="col-span-11 border-r border-gray-100" id="111">
       <div className="relative w-8/12 mx-auto my-4">
         {/* Scroll btns */}
         {/* left */}

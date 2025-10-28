@@ -1,11 +1,29 @@
 import userData from "../data/user-data.json"
 import suggestionPostsData from "../data/suggestion-accounts-data.json"
 import TheUserProfileSmCard from "./TheUserProfileSmallCard";
+import { useEffect, useRef, useState } from "react";
 
 const SuggestionDiv = () => {
+    const targetRef = useRef(null);
+    
+    const [doScroll , setDoScroll] = useState(false)
+
+    useEffect(() => {
+      document.addEventListener("scroll", () =>{ 
+        // console.log(scrollY)
+  
+        const scrollAble = scrollY > 800 ? true : false
+        setDoScroll(scrollAble)
+      }
+      );
+    },[doScroll])
+    
+    const handleScroll = () => {
+      targetRef.current?.scrollIntoView({behavior:"smooth",block:"center"}) 
+    }
     return (
       <div className="col-span-4 my-4">
-        <section className="w-11/12">
+        <section className="w-11/12" ref={targetRef}>
           <TheUserProfileSmCard
             id={userData.id}
             userid={userData.userid}
@@ -57,6 +75,12 @@ const SuggestionDiv = () => {
             </p>
           </footer>
         </section>
+        { doScroll ? <button
+          onClick={handleScroll}
+          className="fixed font-semibold right-20 bg-gray-950/80 rounded-full p-3 text-white rotate-90 bottom-10 hover:bg-gray-700/80 active:-translate-y-1"
+        >
+          &#10094;&#10094;
+        </button> : null}
       </div>
     );
 }
